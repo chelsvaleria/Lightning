@@ -27,7 +27,7 @@ void draw(){
     fill(0);
     textSize(24);
     textAlign(CENTER);
-    text("You Got Him! Refresh page to hit him again.",250,100);
+    text("You Got Him!",250,100);
   }
 }
 void mousePressed(){
