@@ -41,6 +41,7 @@ void person(int y){
   int headY = y;
   stroke(0,0,0);
   //head
+  fill(0,0,0);
   ellipse(485,headY,20,20);
   //torso
   line(485,y+10,485,y+40);
@@ -50,3 +51,5 @@ void person(int y){
   line(485,y+40,470,y+50);
   line(485,y+40,500,y+50);
 }
+
+
