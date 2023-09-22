@@ -9,9 +9,9 @@ void setup(){
 }
 void draw(){
   background(255,255,255); 
+  stroke((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
   while(endX<501){
     noLoop();
-    stroke((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
     endX = startX + ((int)(Math.random()*10));
     endY = startY + ((int)((Math.random()*19)-9));
     line(startX,startY,endX,endY);
@@ -50,4 +50,3 @@ void person(int y){
   line(485,y+40,470,y+50);
   line(485,y+40,500,y+50);
 }
-
