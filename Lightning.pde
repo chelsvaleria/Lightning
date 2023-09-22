@@ -28,6 +28,7 @@ void draw(){
     textSize(24);
     textAlign(CENTER);
     text("You Got Him!",250,100);
+    delay(1);
   }
 }
 void mousePressed(){
